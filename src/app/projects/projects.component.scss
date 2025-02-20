@@ -11,19 +11,15 @@
   background: var(--destacad-title);
   border-radius: 12px;
   padding: 4px 28px;
-  margin: 0 auto;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .projetos__container-paragrafo {
   margin-top: 16px;
   font-size: 18px;
-}
-
-.projetos__container-paragrafo strong {
-  color: var(--txt-destacad);
-  font-size: 20px;
+  text-align: center;
 }
 
 .projetos__itens {
@@ -33,48 +29,74 @@
   align-items: center;
   border-radius: 12px;
   margin-top: 24px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projetos__item-imagem {
+  width: 100%;
+  max-width: 480px;
+  object-fit: cover;
 }
 
 .projetos__itens-descricao {
   background: var(--background-img-project);
-  padding: 32px;
+  padding: 24px;
   border-radius: 0 0 12px 12px;
+  text-align: center;
 }
 
 .projetos__itens-titulo {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  padding-bottom: 24px;
+  margin-bottom: 16px;
 }
 
-.projetos__item-imagem {
-  width: 80%;
-  padding: 32px 0;
-  border-radius: 12px;
+.projetos__itens-paragrafo {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
 }
 
 .projetos__lista {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  padding: 24px 0;
+  justify-content: center;
   gap: 10px;
-}
-
-.projetos__lista-item {
-  text-align: center;
-  color: var(--text-primary);
-  background: var(--txt-destacad);
-  border-radius: 12px;
-  padding: 4px 15px;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-ul {
+  margin-bottom: 16px;
   list-style: none;
 }
 
-.projetos__link {
-  margin-top: 24px;
+.projetos__lista-item {
+  background: var(--txt-destacad);
+  color: var(--text-primary);
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.projetos__link img {
+  width: 24px;
+  transition: transform 0.3s;
+}
+
+.projetos__link:hover img {
+  transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+  .projetos__itens {
+    flex-direction: row;
+    max-width: 1024px;
+  }
+
+  .projetos__item-imagem {
+    width: 50%;
+  }
+
+  .projetos__itens-descricao {
+    width: 50%;
+    padding: 32px;
+  }
 }

@@ -9,48 +9,13 @@ section {
   flex-direction: column;
 }
 
-.skills__container-paragrafo {
-  margin-top: 24px;
-  line-height: 1.5;
-}
-
-.lista-skills {
-  margin-top: 24px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-}
-
-.lista-skills__item {
+.skills__content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: auto;
-  border: solid 2px var(--txt-destacad);
-  padding: 24px 24px;
 }
 
-.lista-skills__link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration-style: none;
-  color: var(--text-primary);
-}
-
-.lista-skills__link p {
-  margin: 15px 0;
-  font-weight: 400;
-  text-decoration-style: none;
-}
-
-img {
-  width: auto;
-}
-
-.skills__container-secao {
+.skills__title {
   color: var(--text-primary);
   background: var(--destacad-title);
   border-radius: 12px;
@@ -60,29 +25,79 @@ img {
   font-size: 14px;
 }
 
-.progress-bar {
+.skills__description {
+  margin-top: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.skills__list-container {
+  margin-top: 24px;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  border: solid 2px var(--txt-destacad);
+  padding: 24px;
+  border-radius: 10px;
+  background-color: var(--background-primary);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skills__item:hover {
+  transform: scale(1.05);
+}
+
+.skills__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.skills__name {
+  margin: 15px 0;
+  font-weight: 400;
+}
+
+.skills__icon {
+  width: auto;
+}
+
+.skills__progress-bar {
   width: 100%;
   border: solid 2px var(--txt-destacad);
   border-radius: 10px;
   overflow: hidden;
   height: 20px;
   background: #ffffff;
+  margin-top: 10px;
 }
 
-.progress-bar-fill {
+.skills__progress-fill {
   height: 100%;
   background-color: var(--txt-destacad);
   width: var(--level, 10%);
   transition: width 0.5s ease-in-out;
 }
 
-ul {
-  list-style: none;
-}
-
+/* Adaptação para telas maiores */
 // @media screen and (min-width: 768px) {
-//   .lista-skills {
+//   .skills__list {
 //     grid-template-columns: repeat(4, 1fr);
-//     // gap: 25px;
 //   }
 // }

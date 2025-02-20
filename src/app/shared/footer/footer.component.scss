@@ -1,11 +1,27 @@
-.footer {
+.rodape {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--background-secundary);
+  position: fixed; /* Fixa o footer */
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 24px 0;
   font-size: 12px;
-  justify-content: center;
+  z-index: 100; /* Garante que o footer fique acima do conteúdo */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
-.footer strong {
+/* Estilos para os outros elementos do footer (texto, etc.) */
+/* ... */
+
+.rodape__texto {
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.rodape__texto-destaque {
   color: var(--txt-destacad);
+  font-weight: bold;
 }
