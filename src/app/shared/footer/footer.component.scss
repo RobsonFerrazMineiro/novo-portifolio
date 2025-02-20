@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  background: var(--background-secundary);
+  padding: 24px 0;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.footer strong {
+  color: var(--txt-destacad);
+}

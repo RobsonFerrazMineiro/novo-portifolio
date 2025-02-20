@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* font */
+  --font-family: "Sora", serif;
+
+  /* backgrounds */
+  --background-default: #030712;
+  --background-secundary: #111827;
+  --background-img-project: #1f2937;
+  --destacad-title: #374151;
+  --destacad-skills: #4b5563;
+
+  /* text color */
+  --txt-primary: #d1d5db;
+  --txt-destacad: #cc0000;
+
+  /* button color */
+  --btn-dowload: #f9fafb;
+
+  --emerald: #10b981;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--background-default);
+  color: var(--txt-primary);
+}
