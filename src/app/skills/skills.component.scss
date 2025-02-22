@@ -4,7 +4,7 @@ section {
 }
 
 .skills {
-  padding: 64px 16px;
+  padding: 100px 16px 64px;
   display: flex;
   flex-direction: column;
 }
@@ -95,9 +95,27 @@ section {
   transition: width 0.5s ease-in-out;
 }
 
-/* Adaptação para telas maiores */
-// @media screen and (min-width: 768px) {
-//   .skills__list {
-//     grid-template-columns: repeat(4, 1fr);
-//   }
-// }
+@media screen and (min-width: 1024px) {
+  .skills {
+    padding: 96px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills__description {
+    font-size: 18px;
+  }
+
+  .skills__list-container {
+    margin-top: 48px;
+  }
+
+  .skills__list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 86px;
+  }
+
+  .skills__name {
+    font-size: 18px;
+  }
+}

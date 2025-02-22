@@ -5,32 +5,35 @@ a {
 .header {
   background: var(--background-default);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  position: fixed; /* Fixa o header */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 91.5%;
-  padding: 16px;
-  z-index: 100; /* Garante que o header fique acima do conteúdo */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  width: 100vw;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-/* Estilos para os outros elementos do header (logo, menu, etc.) */
-/* ... */
 
 .header__logo {
   display: flex;
   align-items: center;
 }
 
+.header__divisoria {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 8px 30px;
+}
+
 .header__logo-img {
   width: 100px;
 }
 
-.header__container {
+.header__menu-hamburgue {
   display: flex;
   align-items: center;
+  padding-left: 200px;
 }
 
 .header__checkbox {
@@ -85,4 +88,23 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.header__menu-opcoes {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__menu-hamburgue {
+    display: none;
+  }
+  .header__divisoria {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 16px 80px;
+  }
+  .header__menu-opcoes {
+    display: flex;
+  }
 }
