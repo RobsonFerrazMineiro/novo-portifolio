@@ -141,4 +141,19 @@ figure {
     justify-content: space-between;
     margin-top: 48px;
   }
+
+  .projetos__itens:nth-child(even) {
+    grid-template-columns: 1fr 1fr; /* Garante que a ordem será mantida */
+  }
+
+  .projetos__itens:nth-child(even) figure {
+    order: 2; /* Move a imagem para a direita */
+    border-radius: 0 12px 12px 0;
+  }
+
+  .projetos__itens:nth-child(even) .projetos__itens-descricao {
+    order: 1; /* Move o texto para a esquerda */
+    border-radius: 12px 0 0 12px;
+    text-align: left;
+  }
 }
