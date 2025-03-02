@@ -87,6 +87,10 @@ figure {
   transform: scale(1.1);
 }
 
+.projetos__itens-caracteristicas {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .projetos {
     padding: 96px 150px;
@@ -127,15 +131,22 @@ figure {
   }
 
   .projetos__itens-paragrafo {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+  }
+
+  .projetos__itens-caracteristicas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
   }
 
   .projetos__itens-titulo {
-    margin: 48px 0 50px;
+    margin: 48px 0 10px;
   }
 
   .projetos__lista {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     justify-content: left;
   }
 
