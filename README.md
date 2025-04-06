@@ -1,6 +1,3 @@
-Claro! Aqui está o README.md completo em markdown para o repositório `novo-portifolio`:
-
-```markdown
 # 🖥️ Novo Portfólio
 
 ![Badge](https://img.shields.io/badge/Projeto-Novo%20Portfólio-blue)
