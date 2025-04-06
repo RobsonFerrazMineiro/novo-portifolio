@@ -1,59 +1,78 @@
-# NovoPortifolio
+Claro! Aqui está o README.md completo em markdown para o repositório `novo-portifolio`:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+```markdown
+# 🖥️ Novo Portfólio
 
-## Development server
+![Badge](https://img.shields.io/badge/Projeto-Novo%20Portfólio-blue)
 
-To start a local development server, run:
+## Descrição
 
-```bash
-ng serve
-```
+Bem-vindo ao Novo Portfólio! Este projeto foi desenvolvido para apresentar meus trabalhos e habilidades de forma moderna e interativa. O portfólio foi criado utilizando HTML, SCSS e TypeScript, seguindo boas práticas de design e desenvolvimento web.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+![HTML](https://img.shields.io/badge/HTML-46.1%25-orange)
+![SCSS](https://img.shields.io/badge/SCSS-33.4%25-purple)
+![TypeScript](https://img.shields.io/badge/TypeScript-20.5%25-blue)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📋 Índice
 
-```bash
-ng generate component component-name
-```
+- [🔍 Sobre o Projeto](#🔍-sobre-o-projeto)
+- [⚙️ Instalação](#⚙️-instalação)
+- [🎨 Como Visualizar](#🎨-como-visualizar)
+- [🤝 Contribuindo](#🤝-contribuindo)
+- [📜 Licença](#📜-licença)
+- [📬 Contato](#📬-contato)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🔍 Sobre o Projeto
 
-```bash
-ng generate --help
-```
+O Novo Portfólio é um projeto de código aberto criado para apresentar meus trabalhos e habilidades. Ele foi desenvolvido com foco em uma experiência de usuário agradável e design responsivo.
 
-## Building
+## ⚙️ Instalação
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Siga os passos abaixo para instalar o projeto localmente:
 
 ```bash
-ng test
+# Clone o repositório
+git clone https://github.com/RobsonFerrazMineiro/novo-portifolio.git
+
+# Entre no diretório do projeto
+cd novo-portifolio
+
+# Instale as dependências
+npm install
 ```
 
-## Running end-to-end tests
+## 🎨 Como Visualizar
 
-For end-to-end (e2e) testing, run:
+Instruções básicas sobre como visualizar o projeto:
 
-```bash
-ng e2e
+Abra o projeto no seu navegador **[clicando aqui](#)**, para uma melhor experiência, certifique-se de que todas as dependências estão instaladas corretamente.
+
+## 🤝 Contribuindo
+
+Se você deseja contribuir para o desenvolvimento do Novo Portfólio, siga os passos abaixo:
+
+1. Faça um fork do projeto
+2. Crie uma branch com sua feature (`git checkout -b feature/NomeDaFeature`)
+3. Faça commit das suas mudanças (`git commit -m 'Adicionar nova feature'`)
+4. Faça push para a branch (`git push origin feature/NomeDaFeature`)
+5. Abra um Pull Request
+
+## 📜 Licença
+
+Projeto somente para fins educativos, sem fins lucrativos.
+
+## 📬 Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- GitHub: [RobsonFerrazMineiro](https://github.com/RobsonFerrazMineiro)
+- Email: [robson_r_f@hotmail.com](mailto:robson_r_f@hotmail.com)
+- LinkedIn: [Robson Ferraz Mineiro](https://www.linkedin.com/in/robson-ferraz-mineiro/)
+- Instagram: [robsonfmofcial](https://www.instagram.com/robsonfmofcial/)
+
+---
+
+Feito com ❤️ por Robson Ferraz Mineiro
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
