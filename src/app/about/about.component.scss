@@ -48,10 +48,10 @@
 
 .about__text {
   margin-top: 24px;
-  line-height: 1.5;
-  text-align: justify;           /* Mantém o texto justificado */
-  text-align-last: left;         /* Garante alinhamento da última linha à esquerda */
-  text-indent: 2em;              /* Recuo da primeira linha */
+  line-height: 1.6;     /* Leitura mais confortável */
+  text-align: left;     /* Alinhamento acessível */
+  max-width: 65ch;      /* Limita largura para boa leitura (~65 caracteres por linha) */
+  text-indent: 2em;     /* Recuo da primeira linha opcional */
 }
 
 @media screen and (min-width: 1024px) {
