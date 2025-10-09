@@ -49,7 +49,9 @@
 .about__text {
   margin-top: 24px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: justify;           /* Mantém o texto justificado */
+  text-align-last: left;         /* Garante alinhamento da última linha à esquerda */
+  text-indent: 2em;              /* Recuo da primeira linha */
 }
 
 @media screen and (min-width: 1024px) {
@@ -86,5 +88,9 @@
 
   .about__text {
     font-size: 18px;
+    text-align: justify;       /* Mantém o texto justificado */
+    text-align-last: left;     /* Garante alinhamento da última linha à esquerda */
+    text-indent: 2em;          /* Recuo da primeira linha */
   }
 }
+
